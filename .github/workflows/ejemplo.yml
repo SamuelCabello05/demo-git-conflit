@@ -1,1 +1,11 @@
+name: Greetings
 
+on: [push]
+
+jobs:
+  ejemplo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GitHub Action for Maven
+        uses: LucaFeger/action-maven-cli@1.1.0
+          
